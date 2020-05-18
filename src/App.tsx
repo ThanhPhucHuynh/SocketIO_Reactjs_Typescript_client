@@ -1,11 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import MainChat from './components/MainChat';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+
+      
+
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
@@ -18,7 +23,11 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+        <h1>Thanh Phuc Huynh</h1>
+        <p>Leaning... socketIO</p>
+        <hr/>
+        <MainChat />      
     </div>
   );
 }
